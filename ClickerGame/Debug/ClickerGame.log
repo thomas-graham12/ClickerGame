@@ -1,23 +1,2 @@
-﻿  Cursor.cpp
-  PowerUp.cpp
-C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\PowerUp.cpp(62,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=int
-          ]
-          and
-          [
-              T=float
-          ]
-C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\PowerUp.cpp(62,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
-          with
-          [
-              T=int
-          ]
-          and
-          [
-              T=float
-          ]
-  main.cpp
-  Generating Code...
+﻿  Lab.cpp
   ClickerGame.vcxproj -> C:\Users\User\source\repos\SFML\ClickerGame\Debug\ClickerGame.exe
