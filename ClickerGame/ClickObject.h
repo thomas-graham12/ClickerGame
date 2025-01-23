@@ -15,7 +15,9 @@ public:
 	float GetNumberOfApples() { return numberOfApples; }
 
 	// Setters
-	void SetNumberOfApples(float& removeAmountOfApples) { numberOfApples -= removeAmountOfApples; }
+	void RemoveNumberOfApples(float& removeAmountOfApples) { numberOfApples -= removeAmountOfApples; }
+
+	void AddNumberOfApples(float& addAmountOfApples) { numberOfApples += addAmountOfApples; }
 
 private:
 	sf::Sprite clickingObj;

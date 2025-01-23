@@ -21,6 +21,8 @@ protected:
 
 	int numberOfThisPowerUp;
 
+	float applesGainedFromPowerUp;
+
 	bool bHoveringOverPowerUp;
 	bool bIsMouseHeld;
 
@@ -28,6 +30,8 @@ protected:
 	sf::FloatRect spriteBounds;
 
 	sf::Mouse mouse;
+
+	sf::Clock timer;
 
 	sf::Sprite powerUpSprite;
 	sf::Texture powerUpTexture;

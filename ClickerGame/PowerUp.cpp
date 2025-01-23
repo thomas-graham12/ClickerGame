@@ -8,8 +8,12 @@ PowerUp::PowerUp(ClickObject& clickObjRef) : apple(clickObjRef)
 	applesGainedPerSecond = 0;
 	powerUpCost = 0;
 
+	applesGainedFromPowerUp = 0;
+
 	bHoveringOverPowerUp = false;
 	bIsMouseHeld = false;
+
+	
 
 	spriteBounds = powerUpSprite.getLocalBounds();
 }
@@ -23,7 +27,7 @@ void PowerUp::Buy()
 			if (apple.GetNumberOfApples() >= powerUpCost)
 			{
 				numberOfThisPowerUp += 1;
-				apple.SetNumberOfApples(powerUpCost);
+				apple.RemoveNumberOfApples(powerUpCost);
 				std::cout << apple.GetNumberOfApples() << '\n';
 				std::cout << "Bought item\n";
 				bIsMouseHeld = true;
@@ -45,6 +49,12 @@ void PowerUp::Buy()
 
 void PowerUp::Click()
 {
+	applesGainedFromPowerUp = numberOfThisPowerUp * applesGainedPerSecond;
+	if (timer.getElapsedTime().asSeconds() >= second)
+	{
+		apple.AddNumberOfApples(applesGainedFromPowerUp);
+		timer.restart();
+	}
 }
 
 void PowerUp::Hover(sf::RenderWindow& window)
@@ -67,6 +77,7 @@ void PowerUp::Draw(sf::RenderWindow& window)
 
 void PowerUp::Update(sf::RenderWindow& window)
 {
+	Click();
 	Hover(window);
 	Draw(window);
 	Buy();

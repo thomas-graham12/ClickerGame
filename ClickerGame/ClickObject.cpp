@@ -61,6 +61,7 @@ void ClickObject::Draw(sf::RenderWindow& window)
 
 void ClickObject::Update(sf::RenderWindow& window)
 {
+	std::cout << numberOfApples << '\n';
 	Click();
 	Hover(window);
 	Draw(window);
