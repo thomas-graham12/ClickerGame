@@ -8,9 +8,8 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(1280, 720), "Clicker Game", sf::Style::Titlebar | sf::Style::Close);
 
 	ClickObject apple;
-	Cursor cursor;
+	Cursor cursor(apple);
 
-	cursor.PrintSecond();
 	while (window.isOpen())
 	{
 		sf::Event event;
@@ -25,6 +24,7 @@ int main()
 
 		window.clear(sf::Color::Blue);
 
+		cursor.Update(window);
 		apple.Update(window);
 
 		window.display();

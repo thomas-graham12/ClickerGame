@@ -5,10 +5,9 @@
 class Cursor : public PowerUp 
 {
 public:
-	Cursor();
+	Cursor(ClickObject& clickObjRef);
 
-	void PrintSecond();
-private:
 	
+private:
 };
 
