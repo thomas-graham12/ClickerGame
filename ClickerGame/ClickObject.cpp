@@ -1,4 +1,6 @@
 #include "ClickObject.h"
+#include <iomanip>
+#include <sstream>
 
 ClickObject::ClickObject()
 {
@@ -20,6 +22,22 @@ ClickObject::ClickObject()
 	bHoveringOverApple = false;
 	bIsMouseHeld = false;
 	numberOfApples = 0.0f;
+
+	if (!gameFont.loadFromFile("TerrariaFont.ttf"))
+	{
+		std::cout << "Font not loaded\n";
+	}
+	else
+	{
+		std::cout << "Font loaded\n";
+	}
+
+
+
+
+	currentApples.setFont(gameFont);
+	currentApples.setCharacterSize(40);
+	currentApples.setPosition(300, 100);
 }
 
 // TODO: Start on Click function
@@ -54,14 +72,24 @@ void ClickObject::Hover(sf::RenderWindow& window)
 	}
 }
 
+void ClickObject::DisplayCurrentApples()
+{
+	// Set decimal place
+	std::ostringstream stream;
+	stream << std::setprecision(4) << numberOfApples;
+	currentApples.setString("Apples collected: " + stream.str());
+}
+
 void ClickObject::Draw(sf::RenderWindow& window)
 {
+	window.draw(currentApples);
 	window.draw(clickingObj);
 }
 
 void ClickObject::Update(sf::RenderWindow& window)
 {
-	std::cout << numberOfApples << '\n';
+	//std::cout << numberOfApples << '\n';
+	DisplayCurrentApples();
 	Click();
 	Hover(window);
 	Draw(window);

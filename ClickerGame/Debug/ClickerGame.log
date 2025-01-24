@@ -1,2 +1,20 @@
-﻿  Lab.cpp
+﻿  ClickObject.cpp
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\ClickObject.cpp(65,99): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\ClickObject.cpp(65,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
   ClickerGame.vcxproj -> C:\Users\User\source\repos\SFML\ClickerGame\Debug\ClickerGame.exe

@@ -8,6 +8,7 @@ public:
 	ClickObject();
 	void Click();
 	void Hover(sf::RenderWindow& window);
+	void DisplayCurrentApples();
 	void Draw(sf::RenderWindow& window);
 	void Update(sf::RenderWindow& window);
 
@@ -26,6 +27,11 @@ private:
 
 	bool bHoveringOverApple;
 	bool bIsMouseHeld;
+	
+	sf::Font gameFont;
+	sf::Text currentApples;
+
+	
 
 	float numberOfApples;
 };
