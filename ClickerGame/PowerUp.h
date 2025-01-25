@@ -4,6 +4,7 @@
 #include "ClickObject.h"
 #include <sstream>
 #include <iomanip>
+#include <SFML/Audio.hpp>
 
 class PowerUp
 {
@@ -39,6 +40,11 @@ protected:
 	sf::Texture powerUpTexture;
 
 	sf::Font gameFont;
+
 	sf::Text priceText;
 	sf::Text applesPerSecondText;
+	sf::Text numberOfPowerUpText;
+
+	sf::SoundBuffer powerUpBuffer;
+	sf::Sound powerUpSound;
 };

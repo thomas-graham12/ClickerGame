@@ -21,6 +21,7 @@ ClickObject::ClickObject()
 	clickingObj.setOrigin(spriteBounds.width / 2, spriteBounds.height / 2);
 	bHoveringOverApple = false;
 	bIsMouseHeld = false;
+	bKeyIsPressed = false;
 	numberOfApples = 0.0f;
 
 	if (!gameFont.loadFromFile("TerrariaFont.ttf"))
@@ -32,12 +33,22 @@ ClickObject::ClickObject()
 		std::cout << "Font loaded\n";
 	}
 
+	if (!appleClickBuffer.loadFromFile("appleSound.mp3"))
+	{
+		std::cout << "Cannot load apple click sound\n";
+	}
+	else
+	{
+		std::cout << "Apple click sound loaded\n";
+	}
 
-
+	appleClickSound.setBuffer(appleClickBuffer);
+	appleClickSound.setVolume(35);
 
 	currentApples.setFont(gameFont);
 	currentApples.setCharacterSize(40);
 	currentApples.setPosition(300, 100);
+	currentApples.setFillColor(sf::Color::Black);
 }
 
 // TODO: Start on Click function
@@ -51,6 +62,7 @@ void ClickObject::Click()
 			std::cout << "Clicked\n";
 			numberOfApples += 1;
 			std::cout << "Apples: " << numberOfApples << '\n';
+			appleClickSound.play();
 		}
 	}
 	else
@@ -88,7 +100,7 @@ void ClickObject::Draw(sf::RenderWindow& window)
 
 void ClickObject::Update(sf::RenderWindow& window)
 {
-	std::cout << numberOfApples << '\n';
+	//std::cout << numberOfApples << '\n';
 	GiveApples();
 	DisplayCurrentApples();
 	Click();

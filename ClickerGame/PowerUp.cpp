@@ -23,13 +23,29 @@ PowerUp::PowerUp(ClickObject& clickObjRef) : apple(clickObjRef)
 	{
 		std::cout << "Loaded font for power ups\n";
 	}
+
+	if (!powerUpBuffer.loadFromFile("buyPowerUp.wav"))
+	{
+		std::cout << "Cannot load audio for power ups\n";
+	}
+	else
+	{
+		std::cout << "Loaded audio for power ups\n";
+	}
+
+	powerUpSound.setBuffer(powerUpBuffer);
+	powerUpSound.setVolume(35);
+
+	applesPerSecondText.setFillColor(sf::Color::Black);
+	numberOfPowerUpText.setFillColor(sf::Color::Black);;
+	priceText.setFillColor(sf::Color::Black);
 }
 
 void PowerUp::Buy()
 {
 	if (bHoveringOverPowerUp && mouse.isButtonPressed(sf::Mouse::Left))
 	{
-		if (bIsMouseHeld == false)
+		if (!bIsMouseHeld)
 		{
 			if (apple.GetNumberOfApples() >= powerUpCost)
 			{
@@ -38,11 +54,33 @@ void PowerUp::Buy()
 				std::cout << apple.GetNumberOfApples() << '\n';
 				std::cout << "Bought item\n";
 				bIsMouseHeld = true;
-				powerUpCost = numberOfThisPowerUp * 1.15;
+				powerUpCost = powerUpCost * 1.15;
+				powerUpSound.play();
 			}
 			else
 			{
-				std::cout << "Too poor to buy this.\n";
+				std::cout << "Too poor to buy this (x1).\n";
+				bIsMouseHeld = true;
+			}
+		}
+	}
+	else if (bHoveringOverPowerUp && mouse.isButtonPressed(sf::Mouse::Right))
+	{
+		if (!bIsMouseHeld)
+		{
+			if (apple.GetNumberOfApples() >= (powerUpCost * 10))
+			{
+				numberOfThisPowerUp += 10;
+				apple.RemoveNumberOfApples(powerUpCost);
+				std::cout << apple.GetNumberOfApples() << '\n';
+				std::cout << "Bought item\n";
+				bIsMouseHeld = true;
+				powerUpCost = powerUpCost * (1.15 * 10);
+				powerUpSound.play();
+			}
+			else
+			{
+				std::cout << "Too poor to buy this (x10).\n";
 				bIsMouseHeld = true;
 			}
 		}
@@ -80,15 +118,18 @@ void PowerUp::DisplayPowerUpStats()
 {
 	std::ostringstream applesPerSecondStream;
 	std::ostringstream powerUpCostStream;
+	std::ostringstream numberOfPowerUpStream;
 	applesPerSecondStream << std::setprecision(6) << applesGainedFromPowerUp;
 	powerUpCostStream << std::setprecision(6) << powerUpCost;
 	priceText.setString("Cost: " + powerUpCostStream.str());
 	applesPerSecondText.setString("ApS: " + applesPerSecondStream.str());
+	numberOfPowerUpText.setString("Owned: " + std::to_string(numberOfThisPowerUp));
 }
 
 void PowerUp::Draw(sf::RenderWindow& window)
 {
 	window.draw(applesPerSecondText);
+	window.draw(numberOfPowerUpText);
 	window.draw(priceText);
 	window.draw(powerUpSprite);
 }

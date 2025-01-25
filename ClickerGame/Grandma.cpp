@@ -30,4 +30,8 @@ Grandma::Grandma(ClickObject& clickObjref) : PowerUp(clickObjref)
 	applesPerSecondText.setFont(gameFont);
 	applesPerSecondText.setCharacterSize(20);
 	applesPerSecondText.setPosition(1000, 260);
+
+	numberOfPowerUpText.setFont(gameFont);
+	numberOfPowerUpText.setCharacterSize(15);
+	numberOfPowerUpText.setPosition(1000, 290);
 }

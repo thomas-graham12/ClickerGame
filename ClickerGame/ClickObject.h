@@ -1,6 +1,7 @@
 #pragma once
 #include <SFML/Graphics.hpp>
 #include <iostream>
+#include <SFML/Audio.hpp>
 
 class ClickObject
 {
@@ -37,7 +38,8 @@ private:
 	sf::Font gameFont;
 	sf::Text currentApples;
 
-	
-
 	float numberOfApples;
+
+	sf::SoundBuffer appleClickBuffer;
+	sf::Sound appleClickSound;
 };

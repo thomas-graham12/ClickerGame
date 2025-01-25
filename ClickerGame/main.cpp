@@ -10,6 +10,8 @@ int main()
 {
 	sf::RenderWindow window(sf::VideoMode(1280, 720), "Clicker Game", sf::Style::Titlebar | sf::Style::Close);
 
+	window.setFramerateLimit(60);
+
 	ClickObject apple;
 
 	/* Power Ups */
@@ -18,6 +20,29 @@ int main()
 	AppleTree appleTree(apple);
 	Lab lab(apple);
 	/* Power Ups */
+
+	//sf::Clock clock;
+	//float lastTime = 0;
+
+	// BACKGROUND
+
+	sf::Texture backgroundTexture;
+	sf::Sprite backgroundSprite;
+
+	if (!backgroundTexture.loadFromFile("background.png"))
+	{
+		std::cout << "Can't load background image\n";
+	}
+	else
+	{
+		std::cout << "Loaded background image\n";
+	}
+
+	backgroundSprite.setTexture(backgroundTexture);
+	backgroundSprite.scale(0.7, 0.7);
+	backgroundSprite.setPosition(-300, 0);
+
+	// BACKGROUND
 
 	while (window.isOpen())
 	{
@@ -31,7 +56,14 @@ int main()
 			}
 		}
 
+		//float currentTime = clock.restart().asSeconds();
+		//float fps = 1.f / currentTime;
+		//lastTime = currentTime;
+		//std::cout << fps << '\n';
+
 		window.clear(sf::Color(0, 100, 0, 255));
+
+		window.draw(backgroundSprite);
 
 		/* Power Ups */
 		lab.Update(window);

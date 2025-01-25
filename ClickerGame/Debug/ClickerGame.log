@@ -1,2 +1,42 @@
-﻿  Lab.cpp
+﻿  ClickObject.cpp
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\ClickObject.cpp(77,99): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\ClickObject.cpp(77,70): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+  PowerUp.cpp
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\PowerUp.cpp(57,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\PowerUp.cpp(78,31): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\PowerUp.cpp(106,101): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\PowerUp.cpp(106,72): warning C4244: 'argument': conversion from 'T' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=float
+          ]
+  Generating Code...
   ClickerGame.vcxproj -> C:\Users\User\source\repos\SFML\ClickerGame\Debug\ClickerGame.exe
