@@ -5,6 +5,7 @@
 #include "Grandma.h"
 #include "AppleTree.h"
 #include "Lab.h"
+#include "PlayerHud.h"
 
 int main()
 {
@@ -13,6 +14,7 @@ int main()
 	window.setFramerateLimit(60);
 
 	ClickObject apple;
+	PlayerHud playerHud;
 
 	/* Power Ups */
 	Cursor cursor(apple);
@@ -25,6 +27,8 @@ int main()
 	//float lastTime = 0;
 
 	// BACKGROUND
+
+	// Link for more background images: https://lexica.art/prompt/ca25aea3-970f-47d6-9444-a649d775d3ae
 
 	sf::Texture backgroundTexture;
 	sf::Sprite backgroundSprite;
@@ -40,7 +44,7 @@ int main()
 
 	backgroundSprite.setTexture(backgroundTexture);
 	backgroundSprite.scale(0.7, 0.7);
-	backgroundSprite.setPosition(-300, 0);
+	backgroundSprite.setPosition(-370, 0);
 
 	// BACKGROUND
 
@@ -64,6 +68,7 @@ int main()
 		window.clear(sf::Color(0, 100, 0, 255));
 
 		window.draw(backgroundSprite);
+		playerHud.Update(window);
 
 		/* Power Ups */
 		lab.Update(window);

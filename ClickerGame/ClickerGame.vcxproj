@@ -146,6 +146,7 @@
     <ClCompile Include="Grandma.cpp" />
     <ClCompile Include="Lab.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="PlayerHud.cpp" />
     <ClCompile Include="PowerUp.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="Cursor.h" />
     <ClInclude Include="Grandma.h" />
     <ClInclude Include="Lab.h" />
+    <ClInclude Include="PlayerHud.h" />
     <ClInclude Include="PowerUp.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

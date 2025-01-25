@@ -19,19 +19,19 @@ Cursor::Cursor(ClickObject& clickObjRef) : PowerUp(clickObjRef)
 
 	spriteBounds = powerUpSprite.getLocalBounds();
 
-	powerUpSprite.setScale(sf::Vector2f(0.05f, 0.05f));
-	powerUpSprite.setPosition(950, 100);
+	powerUpSprite.setScale(sf::Vector2f(0.03f, 0.03f));
+	powerUpSprite.setPosition(995, 140);
 	powerUpSprite.setOrigin(spriteBounds.width / 2, spriteBounds.height / 2);
 
 	priceText.setFont(gameFont);
 	priceText.setCharacterSize(40);
-	priceText.setPosition(1000, 60);
+	priceText.setPosition(1025, 95);
 
 	applesPerSecondText.setFont(gameFont);
 	applesPerSecondText.setCharacterSize(20);
-	applesPerSecondText.setPosition(1000, 110);
+	applesPerSecondText.setPosition(1025, 135);
 
 	numberOfPowerUpText.setFont(gameFont);
 	numberOfPowerUpText.setCharacterSize(15);
-	numberOfPowerUpText.setPosition(1000, 140);
+	numberOfPowerUpText.setPosition(1025, 155);
 }

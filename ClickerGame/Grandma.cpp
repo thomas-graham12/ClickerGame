@@ -19,19 +19,19 @@ Grandma::Grandma(ClickObject& clickObjref) : PowerUp(clickObjref)
 
 	spriteBounds = powerUpSprite.getLocalBounds();
 
-	powerUpSprite.setScale(sf::Vector2f(0.1f, 0.1f));
-	powerUpSprite.setPosition(950, 250);
+	powerUpSprite.setScale(sf::Vector2f(0.063f, 0.07f));
+	powerUpSprite.setPosition(995, 232);
 	powerUpSprite.setOrigin(spriteBounds.width / 2, spriteBounds.height / 2);
 
 	priceText.setFont(gameFont);
 	priceText.setCharacterSize(40);
-	priceText.setPosition(1000, 210);
+	priceText.setPosition(1025, 187);
 
 	applesPerSecondText.setFont(gameFont);
 	applesPerSecondText.setCharacterSize(20);
-	applesPerSecondText.setPosition(1000, 260);
+	applesPerSecondText.setPosition(1025, 227);
 
 	numberOfPowerUpText.setFont(gameFont);
 	numberOfPowerUpText.setCharacterSize(15);
-	numberOfPowerUpText.setPosition(1000, 290);
+	numberOfPowerUpText.setPosition(1025, 247);
 }

@@ -2,6 +2,9 @@
 #include <iomanip>
 #include <sstream>
 
+// TODO: Make it so the apple has to be clicked to be able to get apples.
+// There is a bug where if the player clicks on the apple and hold the button down while moving the mouse in and out of the apple image it will count as a click.
+
 ClickObject::ClickObject()
 {
 	if (!clickingObjTexture.loadFromFile("appleTexture.png"))
@@ -17,7 +20,7 @@ ClickObject::ClickObject()
 
 	clickingObj.setTexture(clickingObjTexture);
 	clickingObj.setScale(sf::Vector2f(0.3f, 0.3f));
-	clickingObj.setPosition(400, 240);
+	clickingObj.setPosition(485, 240);
 	clickingObj.setOrigin(spriteBounds.width / 2, spriteBounds.height / 2);
 	bHoveringOverApple = false;
 	bIsMouseHeld = false;
@@ -47,7 +50,7 @@ ClickObject::ClickObject()
 
 	currentApples.setFont(gameFont);
 	currentApples.setCharacterSize(40);
-	currentApples.setPosition(300, 100);
+	currentApples.setPosition(490, 25);
 	currentApples.setFillColor(sf::Color::Black);
 }
 
@@ -89,7 +92,7 @@ void ClickObject::DisplayCurrentApples()
 	// Set decimal place
 	std::ostringstream stream;
 	stream << std::setprecision(6) << numberOfApples;
-	currentApples.setString("Apples collected: " + stream.str());
+	currentApples.setString(stream.str() + " Apples");
 }
 
 void ClickObject::Draw(sf::RenderWindow& window)

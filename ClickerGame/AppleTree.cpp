@@ -19,19 +19,19 @@ AppleTree::AppleTree(ClickObject& clickObjRef) : PowerUp(clickObjRef)
 
 	spriteBounds = powerUpSprite.getLocalBounds();
 
-	powerUpSprite.setScale(sf::Vector2f(0.015f, 0.015f));
-	powerUpSprite.setPosition(950, 420);
+	powerUpSprite.setScale(sf::Vector2f(0.0085f, 0.01f));
+	powerUpSprite.setPosition(995, 322);
 	powerUpSprite.setOrigin(spriteBounds.width / 2, spriteBounds.height / 2);
 
 	priceText.setFont(gameFont);
 	priceText.setCharacterSize(40);
-	priceText.setPosition(1000, 380);
+	priceText.setPosition(1025, 275);
 
 	applesPerSecondText.setFont(gameFont);
 	applesPerSecondText.setCharacterSize(20);
-	applesPerSecondText.setPosition(1000, 430);
+	applesPerSecondText.setPosition(1025, 315);
 
 	numberOfPowerUpText.setFont(gameFont);
 	numberOfPowerUpText.setCharacterSize(15);
-	numberOfPowerUpText.setPosition(1000, 460);
+	numberOfPowerUpText.setPosition(1025, 335);
 }
