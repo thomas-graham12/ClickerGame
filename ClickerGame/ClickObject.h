@@ -12,6 +12,9 @@ public:
 	void Draw(sf::RenderWindow& window);
 	void Update(sf::RenderWindow& window);
 
+	// Dev functions
+	void GiveApples();
+
 	// Getters
 	float GetNumberOfApples() { return numberOfApples; }
 
@@ -27,6 +30,9 @@ private:
 
 	bool bHoveringOverApple;
 	bool bIsMouseHeld;
+
+	// dev vars
+	bool bKeyIsPressed;
 	
 	sf::Font gameFont;
 	sf::Text currentApples;

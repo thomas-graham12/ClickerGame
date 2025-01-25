@@ -2,6 +2,8 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include "ClickObject.h"
+#include <sstream>
+#include <iomanip>
 
 class PowerUp
 {
@@ -10,6 +12,7 @@ public:
 	void Buy();
 	void Click();
 	void Hover(sf::RenderWindow& window);
+	void DisplayPowerUpStats();
 	void Draw(sf::RenderWindow& window);
 	void Update(sf::RenderWindow& window);
 protected:
@@ -17,7 +20,6 @@ protected:
 	int second;
 	float powerUpCost;
 
-	int numberOfApples;
 
 	int numberOfThisPowerUp;
 
@@ -35,4 +37,8 @@ protected:
 
 	sf::Sprite powerUpSprite;
 	sf::Texture powerUpTexture;
+
+	sf::Font gameFont;
+	sf::Text priceText;
+	sf::Text applesPerSecondText;
 };

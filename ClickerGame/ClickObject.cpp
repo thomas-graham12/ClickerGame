@@ -76,7 +76,7 @@ void ClickObject::DisplayCurrentApples()
 {
 	// Set decimal place
 	std::ostringstream stream;
-	stream << std::setprecision(4) << numberOfApples;
+	stream << std::setprecision(6) << numberOfApples;
 	currentApples.setString("Apples collected: " + stream.str());
 }
 
@@ -88,9 +88,28 @@ void ClickObject::Draw(sf::RenderWindow& window)
 
 void ClickObject::Update(sf::RenderWindow& window)
 {
-	//std::cout << numberOfApples << '\n';
+	std::cout << numberOfApples << '\n';
+	GiveApples();
 	DisplayCurrentApples();
 	Click();
 	Hover(window);
 	Draw(window);
+}
+
+void ClickObject::GiveApples()
+{
+	if (sf::Keyboard::isKeyPressed(sf::Keyboard::A))
+	{
+		if (bKeyIsPressed == false)
+		{
+			bKeyIsPressed = true;
+			std::cout << "Clicked\n";
+			numberOfApples += 1000;
+			//std::cout << "Apples: " << numberOfApples << '\n';
+		}
+	}
+	else
+	{
+		bKeyIsPressed = false;
+	}
 }
