@@ -1,4 +1,2 @@
-﻿  main.cpp
-C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\main.cpp(46,30): warning C4305: 'argument': truncation from 'double' to 'float'
-C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\main.cpp(46,25): warning C4305: 'argument': truncation from 'double' to 'float'
+﻿  PlayerHud.cpp
   ClickerGame.vcxproj -> C:\Users\User\source\repos\SFML\ClickerGame\Debug\ClickerGame.exe

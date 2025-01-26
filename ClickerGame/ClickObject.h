@@ -31,6 +31,7 @@ private:
 
 	bool bHoveringOverApple;
 	bool bIsMouseHeld;
+	bool bMouseHasBeenPressed;
 
 	// dev vars
 	bool bKeyIsPressed;

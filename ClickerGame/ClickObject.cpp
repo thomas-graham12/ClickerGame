@@ -2,9 +2,6 @@
 #include <iomanip>
 #include <sstream>
 
-// TODO: Make it so the apple has to be clicked to be able to get apples.
-// There is a bug where if the player clicks on the apple and hold the button down while moving the mouse in and out of the apple image it will count as a click.
-
 ClickObject::ClickObject()
 {
 	if (!clickingObjTexture.loadFromFile("appleTexture.png"))
@@ -24,6 +21,7 @@ ClickObject::ClickObject()
 	clickingObj.setOrigin(spriteBounds.width / 2, spriteBounds.height / 2);
 	bHoveringOverApple = false;
 	bIsMouseHeld = false;
+	bMouseHasBeenPressed = false;
 	bKeyIsPressed = false;
 	numberOfApples = 0.0f;
 
@@ -59,7 +57,7 @@ void ClickObject::Click()
 {
 	if (bHoveringOverApple && mouse.isButtonPressed(sf::Mouse::Left))
 	{
-		if (bIsMouseHeld == false)
+		if (!bIsMouseHeld)
 		{
 			bIsMouseHeld = true;
 			std::cout << "Clicked\n";
@@ -67,6 +65,10 @@ void ClickObject::Click()
 			std::cout << "Apples: " << numberOfApples << '\n';
 			appleClickSound.play();
 		}
+	}
+	else if (!bHoveringOverApple && mouse.isButtonPressed(sf::Mouse::Left))
+	{
+		bIsMouseHeld = true;
 	}
 	else
 	{

@@ -12,4 +12,7 @@ public:
 private:
 	sf::Texture playerhudBorderTexture;
 	sf::Sprite playerHudBorderSprite;
+
+	sf::Texture upgradeBracketTexture;
+	sf::Sprite upgradeBracketSprite;
 };

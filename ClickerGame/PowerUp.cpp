@@ -85,6 +85,10 @@ void PowerUp::Buy()
 			}
 		}
 	}
+	else if (!bHoveringOverPowerUp && mouse.isButtonPressed(sf::Mouse::Left))
+	{
+		bIsMouseHeld = true;
+	}
 	else
 	{
 		bIsMouseHeld = false;

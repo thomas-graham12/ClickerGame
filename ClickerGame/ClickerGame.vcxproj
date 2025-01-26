@@ -148,6 +148,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PlayerHud.cpp" />
     <ClCompile Include="PowerUp.cpp" />
+    <ClCompile Include="Upgrades.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AppleTree.h" />
@@ -157,6 +158,7 @@
     <ClInclude Include="Lab.h" />
     <ClInclude Include="PlayerHud.h" />
     <ClInclude Include="PowerUp.h" />
+    <ClInclude Include="Upgrades.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
