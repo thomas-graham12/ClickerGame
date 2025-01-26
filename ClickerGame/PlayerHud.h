@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <SFML/Graphics.hpp>
+#include <vector>
 
 class PlayerHud
 {
@@ -15,4 +16,9 @@ private:
 
 	sf::Texture upgradeBracketTexture;
 	sf::Sprite upgradeBracketSprite;
+
+	int upgradeRows;
+	int upgradeColumns;
+
+	sf::Sprite upgradeSprites[];
 };

@@ -25,6 +25,20 @@ PlayerHud::PlayerHud()
 	upgradeBracketSprite.setTexture(upgradeBracketTexture);
 	// TODO: This is a good size. need to span it across the bottom where the upgrades will be
 	upgradeBracketSprite.setScale(0.4f, 0.4f);
+
+	upgradeRows = 2;
+	upgradeColumns = 6;
+
+	for (int i = 0; i < 1; i++)
+	{
+		for (int k = 0; k < upgradeColumns; k++)
+		{
+			if (i == 0)
+			{
+
+			}
+		}
+	}
 }
 
 void PlayerHud::Draw(sf::RenderWindow& window)
