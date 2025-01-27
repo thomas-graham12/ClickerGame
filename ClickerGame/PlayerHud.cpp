@@ -23,19 +23,29 @@ PlayerHud::PlayerHud()
 	}
 
 	upgradeBracketSprite.setTexture(upgradeBracketTexture);
-	// TODO: This is a good size. need to span it across the bottom where the upgrades will be
-	upgradeBracketSprite.setScale(0.4f, 0.4f);
+
+	startPosX = 195;
+	offsetX = 95.7;
 
 	upgradeRows = 2;
-	upgradeColumns = 6;
+	upgradeColumns = 8;
 
-	for (int i = 0; i < 1; i++)
+	// TODO: Make it so everything spawns correctly
+	for (int i = 1; i < upgradeRows; i++)
 	{
-		for (int k = 0; k < upgradeColumns; k++)
+		for (int k = 0; k < sizeof(upgradeSprites) / sizeof(upgradeSprites[0]); k++)
 		{
-			if (i == 0)
+			upgradeSprites[k].setTexture(upgradeBracketTexture);
+			upgradeSprites[k].setScale(0.35f, 0.35f);
+			if (i == 1)
 			{
-
+				upgradeSprites[k].setPosition(startPosX + (k * offsetX), 560);
+				std::cout << "Set position X\n";
+			}
+			else if (i == 2)
+			{
+				upgradeSprites[k].setPosition(startPosX + (k * offsetX), 600);
+				std::cout << "Set position X and m ade a new row\n";
 			}
 		}
 	}
@@ -43,7 +53,12 @@ PlayerHud::PlayerHud()
 
 void PlayerHud::Draw(sf::RenderWindow& window)
 {
-	window.draw(upgradeBracketSprite);
+	
+	for (int i = 0; i < sizeof(upgradeSprites) / sizeof(upgradeSprites[0]); i++)
+	{
+		window.draw(upgradeSprites[i]);
+	}
+	//window.draw(upgradeBracketSprite);
 	window.draw(playerHudBorderSprite);
 }
 

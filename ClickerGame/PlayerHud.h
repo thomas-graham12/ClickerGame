@@ -20,5 +20,8 @@ private:
 	int upgradeRows;
 	int upgradeColumns;
 
-	sf::Sprite upgradeSprites[];
+	float startPosX;
+	float offsetX;
+
+	sf::Sprite upgradeSprites[16];
 };
