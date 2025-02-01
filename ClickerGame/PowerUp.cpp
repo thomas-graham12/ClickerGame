@@ -101,6 +101,7 @@ void PowerUp::Click()
 	if (timer.getElapsedTime().asSeconds() >= second)
 	{
 		apple.AddNumberOfApples(applesGainedFromPowerUp);
+		totalApplesGainedOverTheGame += applesGainedFromPowerUp;
 		timer.restart();
 	}
 }
@@ -140,6 +141,7 @@ void PowerUp::Draw(sf::RenderWindow& window)
 
 void PowerUp::Update(sf::RenderWindow& window)
 {
+	//std::cout << totalApplesGainedOverTheGame << '\n';
 	DisplayPowerUpStats();
 	Click();
 	Hover(window);

@@ -2,11 +2,13 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
 #include <vector>
+#include "CursorUpgrades.h"
 
 class PlayerHud
 {
 public:
 	PlayerHud();
+	void ShowUpgrades();
 	void Draw(sf::RenderWindow& window);
 	void Update(sf::RenderWindow& window);
 
@@ -23,5 +25,7 @@ private:
 	float startPosX;
 	float offsetX;
 
-	sf::Sprite upgradeSprites[16];
+	CursorUpgrades cursorUpgrades;
+
+	std::vector<sf::Sprite> upgradeList;
 };

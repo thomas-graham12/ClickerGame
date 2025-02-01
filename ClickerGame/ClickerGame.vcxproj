@@ -143,6 +143,7 @@
     <ClCompile Include="AppleTree.cpp" />
     <ClCompile Include="ClickObject.cpp" />
     <ClCompile Include="Cursor.cpp" />
+    <ClCompile Include="CursorUpgrades.cpp" />
     <ClCompile Include="Grandma.cpp" />
     <ClCompile Include="Lab.cpp" />
     <ClCompile Include="main.cpp" />
@@ -154,6 +155,7 @@
     <ClInclude Include="AppleTree.h" />
     <ClInclude Include="ClickObject.h" />
     <ClInclude Include="Cursor.h" />
+    <ClInclude Include="CursorUpgrades.h" />
     <ClInclude Include="Grandma.h" />
     <ClInclude Include="Lab.h" />
     <ClInclude Include="PlayerHud.h" />

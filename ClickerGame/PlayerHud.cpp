@@ -26,43 +26,35 @@ PlayerHud::PlayerHud()
 
 	startPosX = 195;
 	offsetX = 95.7;
+}
 
-	upgradeRows = 2;
-	upgradeColumns = 8;
+void PlayerHud::ShowUpgrades()
+{
 
-	// TODO: Make it so everything spawns correctly
-	for (int i = 1; i < upgradeRows; i++)
+	cursorUpgrades.GetTotalApplesFromThisPowerup();
+
+	for (auto sprite : upgradeList)
 	{
-		for (int k = 0; k < sizeof(upgradeSprites) / sizeof(upgradeSprites[0]); k++)
-		{
-			upgradeSprites[k].setTexture(upgradeBracketTexture);
-			upgradeSprites[k].setScale(0.35f, 0.35f);
-			if (i == 1)
-			{
-				upgradeSprites[k].setPosition(startPosX + (k * offsetX), 560);
-				std::cout << "Set position X\n";
-			}
-			else if (i == 2)
-			{
-				upgradeSprites[k].setPosition(startPosX + (k * offsetX), 600);
-				std::cout << "Set position X and m ade a new row\n";
-			}
-		}
+		int i = 0;
+		sprite.setScale(0.35f, 0.35f);
+		sprite.setPosition(150.0f + i * 50.0f, 300.0f);
+		i++;
 	}
 }
 
 void PlayerHud::Draw(sf::RenderWindow& window)
 {
-	
-	for (int i = 0; i < sizeof(upgradeSprites) / sizeof(upgradeSprites[0]); i++)
+	for (auto sprite : upgradeList)
 	{
-		window.draw(upgradeSprites[i]);
+		window.draw(sprite);
 	}
-	//window.draw(upgradeBracketSprite);
 	window.draw(playerHudBorderSprite);
 }
 
 void PlayerHud::Update(sf::RenderWindow& window)
 {
+	cursorUpgrades.Update(upgradeList);
+	cursorUpgrades.UpdateApples();
+	ShowUpgrades();
 	Draw(window);
 }

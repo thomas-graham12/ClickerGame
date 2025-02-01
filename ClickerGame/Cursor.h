@@ -7,7 +7,5 @@ class Cursor : public PowerUp
 public:
 	Cursor(ClickObject& clickObjRef);
 
-	
 private:
 };
-

@@ -6,6 +6,7 @@
 #include "AppleTree.h"
 #include "Lab.h"
 #include "PlayerHud.h"
+#include "CursorUpgrades.h"
 
 int main()
 {
@@ -22,6 +23,11 @@ int main()
 	AppleTree appleTree(apple);
 	Lab lab(apple);
 	/* Power Ups */
+
+	/* Upgrades */
+	CursorUpgrades cursorUpgrades;
+	/* Upgrades */
+
 
 	//sf::Clock clock;
 	//float lastTime = 0;
@@ -77,6 +83,9 @@ int main()
 		cursor.Update(window);
 		apple.Update(window);
 		/* Power Ups */
+
+		/* Upgrades */
+		/* Upgrades */
 
 		window.display();
 	}

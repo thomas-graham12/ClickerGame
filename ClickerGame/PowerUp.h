@@ -16,6 +16,10 @@ public:
 	void DisplayPowerUpStats();
 	void Draw(sf::RenderWindow& window);
 	void Update(sf::RenderWindow& window);
+
+	// Getters
+	float GetTotalApplesOverGame() const { return totalApplesGainedOverTheGame; }
+
 protected:
 	float applesGainedPerSecond;
 	int second;
@@ -25,6 +29,9 @@ protected:
 	int numberOfThisPowerUp;
 
 	float applesGainedFromPowerUp;
+
+	// This is for calculating whether upgrades should be shown or not
+	float totalApplesGainedOverTheGame;
 
 	bool bHoveringOverPowerUp;
 	bool bIsMouseHeld;
