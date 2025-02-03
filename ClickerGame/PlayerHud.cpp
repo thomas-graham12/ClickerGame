@@ -1,7 +1,8 @@
 #include "PlayerHud.h"
 
-PlayerHud::PlayerHud()
-{
+PlayerHud::PlayerHud(Cursor& cursor, AppleTree& appleTree, Grandma& grandma, Lab& lab)
+	: cursorUpgrades(cursor)
+{ 
 	if (!playerhudBorderTexture.loadFromFile("AppleClicker Outline.png"))
 	{
 		std::cout << "Could not load player hud border\n";
@@ -26,26 +27,27 @@ PlayerHud::PlayerHud()
 
 	startPosX = 195;
 	offsetX = 95.7;
+
+	upgradeCount = 0;
 }
 
 void PlayerHud::ShowUpgrades()
-{
-
-	cursorUpgrades.GetTotalApplesFromThisPowerup();
-
-	for (auto sprite : upgradeList)
+{// TODO: FIGURE OUT WHY THE SPRITES ARENT BEING DISPLAYED CORRECTLY
+	int index = 0;
+	for (auto& sprite : upgradeList)
 	{
-		int i = 0;
-		sprite.setScale(0.35f, 0.35f);
-		sprite.setPosition(150.0f + i * 50.0f, 300.0f);
-		i++;
+		sprite.setScale(0.55f, 0.55f);
+		sprite.setPosition(150.0f + upgradeCount * 100.0f, 300.0f);
+		index++;
 	}
+	upgradeCount = upgradeList.size();
 }
 
 void PlayerHud::Draw(sf::RenderWindow& window)
 {
-	for (auto sprite : upgradeList)
+	for (auto& sprite : upgradeList)
 	{
+		std::cout << "drawing\n";
 		window.draw(sprite);
 	}
 	window.draw(playerHudBorderSprite);
@@ -53,8 +55,8 @@ void PlayerHud::Draw(sf::RenderWindow& window)
 
 void PlayerHud::Update(sf::RenderWindow& window)
 {
+	std::cout << upgradeCount << '\n';
 	cursorUpgrades.Update(upgradeList);
-	cursorUpgrades.UpdateApples();
 	ShowUpgrades();
 	Draw(window);
 }

@@ -15,7 +15,6 @@ int main()
 	window.setFramerateLimit(60);
 
 	ClickObject apple;
-	PlayerHud playerHud;
 
 	/* Power Ups */
 	Cursor cursor(apple);
@@ -25,9 +24,11 @@ int main()
 	/* Power Ups */
 
 	/* Upgrades */
-	CursorUpgrades cursorUpgrades;
+	CursorUpgrades cursorUpgrades(cursor);
 	/* Upgrades */
 
+
+	PlayerHud playerHud(cursor,appleTree, grandma, lab);
 
 	//sf::Clock clock;
 	//float lastTime = 0;
@@ -85,6 +86,7 @@ int main()
 		/* Power Ups */
 
 		/* Upgrades */
+		
 		/* Upgrades */
 
 		window.display();

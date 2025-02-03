@@ -5,9 +5,10 @@
 class CursorUpgrades : public Upgrades
 {
 public:
-	CursorUpgrades();
-	void UpdateApples();
+	CursorUpgrades(Cursor& existingCursor);
+	void Update(std::vector<sf::Sprite>& upgradeList);
 
 private:
 	ClickObject apple;
+	Cursor& cursorRef;
 };

@@ -4,10 +4,15 @@
 #include <vector>
 #include "CursorUpgrades.h"
 
+#include "Cursor.h"
+#include "AppleTree.h"
+#include "Grandma.h"
+#include "Lab.h"
+
 class PlayerHud
 {
 public:
-	PlayerHud();
+	PlayerHud(Cursor& cursor, AppleTree& appleTree, Grandma& grandma, Lab& lab);
 	void ShowUpgrades();
 	void Draw(sf::RenderWindow& window);
 	void Update(sf::RenderWindow& window);
@@ -19,11 +24,10 @@ private:
 	sf::Texture upgradeBracketTexture;
 	sf::Sprite upgradeBracketSprite;
 
-	int upgradeRows;
-	int upgradeColumns;
-
 	float startPosX;
 	float offsetX;
+
+	int upgradeCount;
 
 	CursorUpgrades cursorUpgrades;
 

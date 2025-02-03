@@ -25,13 +25,14 @@ protected:
 	int second;
 	float powerUpCost;
 
+	float totalApplesGainedOverTheGame;
 
 	int numberOfThisPowerUp;
 
 	float applesGainedFromPowerUp;
 
 	// This is for calculating whether upgrades should be shown or not
-	float totalApplesGainedOverTheGame;
+	
 
 	bool bHoveringOverPowerUp;
 	bool bIsMouseHeld;
