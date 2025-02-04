@@ -31,23 +31,12 @@ PlayerHud::PlayerHud(Cursor& cursor, AppleTree& appleTree, Grandma& grandma, Lab
 	upgradeCount = 0;
 }
 
-void PlayerHud::ShowUpgrades()
-{// TODO: FIGURE OUT WHY THE SPRITES ARENT BEING DISPLAYED CORRECTLY
-	int index = 0;
-	for (auto& sprite : upgradeList)
-	{
-		sprite.setScale(0.55f, 0.55f);
-		sprite.setPosition(150.0f + upgradeCount * 100.0f, 300.0f);
-		index++;
-	}
-	upgradeCount = upgradeList.size();
-}
-
+// TODO: Make it so they are drawn at specific areas
 void PlayerHud::Draw(sf::RenderWindow& window)
 {
 	for (auto& sprite : upgradeList)
 	{
-		std::cout << "drawing\n";
+		//std::cout << "drawing\n";
 		window.draw(sprite);
 	}
 	window.draw(playerHudBorderSprite);
@@ -55,8 +44,7 @@ void PlayerHud::Draw(sf::RenderWindow& window)
 
 void PlayerHud::Update(sf::RenderWindow& window)
 {
-	std::cout << upgradeCount << '\n';
+	//std::cout << upgradeCount << '\n';
 	cursorUpgrades.Update(upgradeList);
-	ShowUpgrades();
 	Draw(window);
 }

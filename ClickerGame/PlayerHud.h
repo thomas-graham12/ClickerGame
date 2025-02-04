@@ -13,7 +13,6 @@ class PlayerHud
 {
 public:
 	PlayerHud(Cursor& cursor, AppleTree& appleTree, Grandma& grandma, Lab& lab);
-	void ShowUpgrades();
 	void Draw(sf::RenderWindow& window);
 	void Update(sf::RenderWindow& window);
 

@@ -5,10 +5,10 @@ CursorUpgrades::CursorUpgrades(Cursor& existingCursor) : cursorRef(existingCurso
 	getTotalApplesGained = existingCursor.GetTotalApplesOverGame();
 
 	upgradeMilestones[0] = 1;
-	upgradeMilestones[1] = 3;
-	upgradeMilestones[2] = 5;
-	upgradeMilestones[3] = 7;
-	upgradeMilestones[4] = 9;
+	upgradeMilestones[1] = 1.2;
+	upgradeMilestones[2] = 1.3;
+	upgradeMilestones[3] = 1.4;
+	upgradeMilestones[4] = 1.5;
 
 	bUpgradeCompletion[0] = false;
 	bUpgradeCompletion[1] = false;
@@ -16,9 +16,25 @@ CursorUpgrades::CursorUpgrades(Cursor& existingCursor) : cursorRef(existingCurso
 	bUpgradeCompletion[3] = false;
 	bUpgradeCompletion[4] = false;
 
-	if (!upgradeTextures[0].loadFromFile("clickerFirstUpgrade.png") && !upgradeTextures[1].loadFromFile("clickerSecondUpgrade.png") && !upgradeTextures[2].loadFromFile("clickerThirdUpgrade.png")&& !upgradeTextures[3].loadFromFile("clickerFourthUpgrade.png")&& !upgradeTextures[4].loadFromFile("clickerFifthUpgrade.png"))
+	if (!upgradeTextures[0].loadFromFile("clickerFirstUpgrade.png"))
 	{
-		std::cout << "Couldn't load textures\n";
+		std::cout << "Couldn't load 1st  upgrade textures\n";
+	}
+	if (!upgradeTextures[1].loadFromFile("clickerSecondUpgrade.png"))
+	{
+		std::cout << "Couldn't load 2nd upgrade textures\n";
+	}
+	if (!upgradeTextures[2].loadFromFile("clickerThirdUpgrade.png"))
+	{
+		std::cout << "Couldn't load 3rd upgrade textures\n";
+	}
+	if (!upgradeTextures[3].loadFromFile("clickerFourthUpgrade.png"))
+	{
+		std::cout << "Couldn't load 4th upgrade textures\n";
+	}
+	if (!upgradeTextures[4].loadFromFile("clickerFifthUpgrade.png"))
+	{
+		std::cout << "Couldn't load 5th upgades textures\n";
 	}
 }
 
