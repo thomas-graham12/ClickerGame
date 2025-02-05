@@ -3,12 +3,14 @@
 CursorUpgrades::CursorUpgrades(Cursor& existingCursor) : cursorRef(existingCursor)
 {
 	getTotalApplesGained = existingCursor.GetTotalApplesOverGame();
+	getTotalNumberOfThisPowerup = existingCursor.GetNumberOfPowerUp();
 
-	upgradeMilestones[0] = 1;
-	upgradeMilestones[1] = 1.2;
-	upgradeMilestones[2] = 1.3;
-	upgradeMilestones[3] = 1.4;
-	upgradeMilestones[4] = 1.5;
+	exponentialRate = 5.0f;
+
+	for (int i = 0; i < 5; i++)
+	{
+		upgradeMilestones[i] = std::pow(exponentialRate, i);
+	}
 
 	bUpgradeCompletion[0] = false;
 	bUpgradeCompletion[1] = false;
@@ -41,6 +43,5 @@ CursorUpgrades::CursorUpgrades(Cursor& existingCursor) : cursorRef(existingCurso
 void CursorUpgrades::Update(std::vector<sf::Sprite>& upgradeList)
 {
 	getTotalApplesGained = cursorRef.GetTotalApplesOverGame();  // Update with current value
-	//std::cout << getTotalApplesGained << '\n';
 	AddToVector(upgradeList);
 }

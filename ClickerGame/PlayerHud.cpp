@@ -34,10 +34,15 @@ PlayerHud::PlayerHud(Cursor& cursor, AppleTree& appleTree, Grandma& grandma, Lab
 // TODO: Make it so they are drawn at specific areas
 void PlayerHud::Draw(sf::RenderWindow& window)
 {
+	int index = 0;
 	for (auto& sprite : upgradeList)
 	{
 		//std::cout << "drawing\n";
+		sprite.setScale(0.3f, 0.3f);
+		sprite.setPosition(190.0f + index * 150, 560.0f);
+
 		window.draw(sprite);
+		index++;
 	}
 	window.draw(playerHudBorderSprite);
 }

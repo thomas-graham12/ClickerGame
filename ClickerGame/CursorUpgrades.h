@@ -1,6 +1,7 @@
 #pragma once
 #include "Upgrades.h"
 #include "Cursor.h"
+#include <math.h>
 
 class CursorUpgrades : public Upgrades
 {

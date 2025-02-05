@@ -16,6 +16,8 @@ public:
 
 protected:
 	float getTotalApplesGained;
+	int getTotalNumberOfThisPowerup;
+	float exponentialRate;
 
 	ClickObject apple;
 	//int firstUpgradeMilestone, secondUpgradeMilestone, thirdUpgradeMilestone, fourthUpgradeMilestone, fifthUpgradeMilestone;

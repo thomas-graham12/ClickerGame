@@ -1,2 +1,12 @@
-﻿  Upgrades.cpp
-  ClickerGame.vcxproj -> C:\Users\User\source\repos\SFML\ClickerGame\Debug\ClickerGame.exe
+﻿  CursorUpgrades.cpp
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\CursorUpgrades.cpp(12,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\CursorUpgrades.cpp(42,22): error C2601: 'CursorUpgrades::Update': local function definitions are illegal
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\CursorUpgrades.cpp(4): message : this line contains a '{' which has not yet been matched
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\CursorUpgrades.cpp(4): fatal  error C1075: '{': no matching token found
+  PlayerHud.cpp
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\PlayerHud.cpp(29,12): warning C4305: '=': truncation from 'double' to 'float'
+  Upgrades.cpp
+  main.cpp
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\main.cpp(53,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\User\source\repos\SFML\ClickerGame\ClickerGame\main.cpp(53,25): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...

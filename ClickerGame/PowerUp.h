@@ -19,6 +19,7 @@ public:
 
 	// Getters
 	float GetTotalApplesOverGame() const { return totalApplesGainedOverTheGame; }
+	int GetNumberOfPowerUp() const { return numberOfThisPowerUp; }
 
 protected:
 	float applesGainedPerSecond;
