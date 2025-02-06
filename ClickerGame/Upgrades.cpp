@@ -7,6 +7,7 @@ Upgrades::Upgrades()
 
 void Upgrades::AddToVector(std::vector<sf::Sprite>& upgradeList)
 {
+	// TODO: MAKE IT SO THE VECTOR CAN ONLY HAVE 5 AT A TIME
 	//std::cout << getTotalApplesGained << '\n';
 	if (getTotalApplesGained >= upgradeMilestones[0] && bUpgradeCompletion[0] == false)
 	{

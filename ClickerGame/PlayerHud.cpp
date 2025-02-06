@@ -29,6 +29,8 @@ PlayerHud::PlayerHud(Cursor& cursor, AppleTree& appleTree, Grandma& grandma, Lab
 	offsetX = 95.7;
 
 	upgradeCount = 0;
+
+	bShowUpgradesOnNewLine = false;
 }
 
 // TODO: Make it so they are drawn at specific areas
@@ -38,12 +40,15 @@ void PlayerHud::Draw(sf::RenderWindow& window)
 	for (auto& sprite : upgradeList)
 	{
 		//std::cout << "drawing\n";
-		sprite.setScale(0.3f, 0.3f);
-		sprite.setPosition(190.0f + index * 150, 560.0f);
+		
+		sprite.setScale(0.5f, 0.5f);
+		sprite.setPosition(190.0f + index * 162, 580.0f);
+
 
 		window.draw(sprite);
 		index++;
 	}
+
 	window.draw(playerHudBorderSprite);
 }
 

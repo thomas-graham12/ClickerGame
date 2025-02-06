@@ -28,6 +28,8 @@ private:
 
 	int upgradeCount;
 
+	bool bShowUpgradesOnNewLine;
+
 	CursorUpgrades cursorUpgrades;
 
 	std::vector<sf::Sprite> upgradeList;

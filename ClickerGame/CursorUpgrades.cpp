@@ -7,10 +7,17 @@ CursorUpgrades::CursorUpgrades(Cursor& existingCursor) : cursorRef(existingCurso
 
 	exponentialRate = 5.0f;
 
-	for (int i = 0; i < 5; i++)
-	{
-		upgradeMilestones[i] = std::pow(exponentialRate, i);
-	}
+	//for (int i = 0; i < 5; i++)
+	//{
+	//	upgradeMilestones[i] = std::pow(exponentialRate, i);
+	//}
+
+	//  Testing values
+	upgradeMilestones[0] = 0.1;
+	upgradeMilestones[1] = 0.2;
+	upgradeMilestones[2] = 0.3;
+	upgradeMilestones[3] = 0.4;
+	upgradeMilestones[4] = 0.5;
 
 	bUpgradeCompletion[0] = false;
 	bUpgradeCompletion[1] = false;
