@@ -3,28 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\Upgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PlayerHud.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\PlayerHud.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Cursor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\Cursor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTreeUpgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\AppleTreeUpgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\CursorUpgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\Upgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTreeUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\AppleTreeUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\CursorUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\GrandmaUpgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\GrandmaUpgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PlayerHud.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\PlayerHud.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\GrandmaUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\GrandmaUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PlayerHud.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\PlayerHud.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\Upgrades.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\Upgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Cursor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\Cursor.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Cursor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -37,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\ClickObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\ClickObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|solutionrelative:ClickerGame\\CursorUpgrades.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A30DE65F-DCE1-4F6A-BC73-CFB6A32814DD}|ClickerGame\\ClickerGame.vcxproj|C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PowerUp.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -90,7 +106,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Grandma.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Grandma.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\Grandma.cpp",
@@ -102,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\main.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\main.cpp",
@@ -114,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "Lab.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Lab.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\Lab.cpp",
@@ -126,7 +142,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "Grandma.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Grandma.h",
               "RelativeDocumentMoniker": "ClickerGame\\Grandma.h",
@@ -138,20 +154,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "PlayerHud.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PlayerHud.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\PlayerHud.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PlayerHud.cpp",
               "RelativeToolTip": "ClickerGame\\PlayerHud.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACwAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-25T14:26:27.121Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "AppleTree.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTree.h",
               "RelativeDocumentMoniker": "ClickerGame\\AppleTree.h",
@@ -159,12 +175,11 @@
               "RelativeToolTip": "ClickerGame\\AppleTree.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-23T15:58:00.412Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-23T15:58:00.412Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Cursor.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Cursor.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\Cursor.cpp",
@@ -172,12 +187,37 @@
               "RelativeToolTip": "ClickerGame\\Cursor.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-22T16:02:10.665Z",
+              "WhenOpened": "2025-01-22T16:02:10.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CursorUpgrades.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.h",
+              "RelativeDocumentMoniker": "ClickerGame\\CursorUpgrades.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.h",
+              "RelativeToolTip": "ClickerGame\\CursorUpgrades.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-01T02:54:37.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "CursorUpgrades.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.cpp",
+              "RelativeDocumentMoniker": "ClickerGame\\CursorUpgrades.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.cpp",
+              "RelativeToolTip": "ClickerGame\\CursorUpgrades.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-01T03:55:02.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Cursor.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Cursor.h",
               "RelativeDocumentMoniker": "ClickerGame\\Cursor.h",
@@ -185,25 +225,24 @@
               "RelativeToolTip": "ClickerGame\\Cursor.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-22T15:47:37.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T15:47:37.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Upgrades.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\Upgrades.cpp",
               "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.cpp",
               "RelativeToolTip": "ClickerGame\\Upgrades.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-01T02:22:47.089Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "AppleTree.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTree.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\AppleTree.cpp",
@@ -215,7 +254,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "Lab.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Lab.h",
               "RelativeDocumentMoniker": "ClickerGame\\Lab.h",
@@ -233,59 +272,85 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CursorUpgrades.cpp",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.cpp",
-              "RelativeDocumentMoniker": "ClickerGame\\CursorUpgrades.cpp",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.cpp",
-              "RelativeToolTip": "ClickerGame\\CursorUpgrades.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAACAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AppleTreeUpgrades.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTreeUpgrades.cpp",
+              "RelativeDocumentMoniker": "ClickerGame\\AppleTreeUpgrades.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTreeUpgrades.cpp",
+              "RelativeToolTip": "ClickerGame\\AppleTreeUpgrades.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADMAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-01T03:55:02.729Z",
+              "WhenOpened": "2025-02-07T06:51:11.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CursorUpgrades.h",
-              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.h",
-              "RelativeDocumentMoniker": "ClickerGame\\CursorUpgrades.h",
-              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\CursorUpgrades.h",
-              "RelativeToolTip": "ClickerGame\\CursorUpgrades.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAACAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AppleTreeUpgrades.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTreeUpgrades.h",
+              "RelativeDocumentMoniker": "ClickerGame\\AppleTreeUpgrades.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\AppleTreeUpgrades.h",
+              "RelativeToolTip": "ClickerGame\\AppleTreeUpgrades.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-01T02:54:37.838Z",
+              "WhenOpened": "2025-02-07T06:49:50.591Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "GrandmaUpgrades.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\GrandmaUpgrades.cpp",
+              "RelativeDocumentMoniker": "ClickerGame\\GrandmaUpgrades.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\GrandmaUpgrades.cpp",
+              "RelativeToolTip": "ClickerGame\\GrandmaUpgrades.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-07T06:35:25.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GrandmaUpgrades.h",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\GrandmaUpgrades.h",
+              "RelativeDocumentMoniker": "ClickerGame\\GrandmaUpgrades.h",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\GrandmaUpgrades.h",
+              "RelativeToolTip": "ClickerGame\\GrandmaUpgrades.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-07T06:28:45.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Upgrades.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.h",
               "RelativeDocumentMoniker": "ClickerGame\\Upgrades.h",
               "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\Upgrades.h",
               "RelativeToolTip": "ClickerGame\\Upgrades.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-26T02:41:20.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "PlayerHud.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PlayerHud.h",
               "RelativeDocumentMoniker": "ClickerGame\\PlayerHud.h",
               "ToolTip": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PlayerHud.h",
               "RelativeToolTip": "ClickerGame\\PlayerHud.h",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB4AAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-25T14:23:23.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "PowerUp.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PowerUp.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\PowerUp.cpp",
@@ -293,12 +358,11 @@
               "RelativeToolTip": "ClickerGame\\PowerUp.cpp",
               "ViewState": "AgIAAHEAAAAAAAAAAAAAAI8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-22T15:47:40.604Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T15:47:40.604Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "PowerUp.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\PowerUp.h",
               "RelativeDocumentMoniker": "ClickerGame\\PowerUp.h",
@@ -306,12 +370,11 @@
               "RelativeToolTip": "ClickerGame\\PowerUp.h",
               "ViewState": "AgIAAAoAAAAAAAAAAAAjwBUAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-22T15:44:45.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T15:44:45.635Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ClickObject.h",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\ClickObject.h",
               "RelativeDocumentMoniker": "ClickerGame\\ClickObject.h",
@@ -323,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "ClickObject.cpp",
               "DocumentMoniker": "C:\\Users\\User\\source\\repos\\SFML\\ClickerGame\\ClickerGame\\ClickObject.cpp",
               "RelativeDocumentMoniker": "ClickerGame\\ClickObject.cpp",
@@ -331,8 +394,7 @@
               "RelativeToolTip": "ClickerGame\\ClickObject.cpp",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-22T13:03:48.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-22T13:03:48.56Z"
             }
           ]
         }

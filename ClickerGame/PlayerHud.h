@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include <vector>
 #include "CursorUpgrades.h"
+#include "GrandmaUpgrades.h"
 
 #include "Cursor.h"
 #include "AppleTree.h"
@@ -31,6 +32,7 @@ private:
 	bool bShowUpgradesOnNewLine;
 
 	CursorUpgrades cursorUpgrades;
+	GrandmaUpgrades grandmaUpgrades;
 
 	std::vector<sf::Sprite> upgradeList;
 };

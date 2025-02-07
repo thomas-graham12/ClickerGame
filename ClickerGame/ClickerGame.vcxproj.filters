@@ -48,6 +48,12 @@
     <ClCompile Include="CursorUpgrades.cpp">
       <Filter>Upgrades</Filter>
     </ClCompile>
+    <ClCompile Include="GrandmaUpgrades.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppleTreeUpgrades.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClickObject.h">
@@ -75,6 +81,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CursorUpgrades.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandmaUpgrades.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleTreeUpgrades.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

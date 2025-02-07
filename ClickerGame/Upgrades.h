@@ -4,6 +4,8 @@
 #include <vector>
 #include "ClickObject.h"
 
+// TODO: LET HTE PLAYER HOVER OVER UPGRADES AND SHOW WHAT THEY DO.
+
 class Upgrades
 {
 public:
