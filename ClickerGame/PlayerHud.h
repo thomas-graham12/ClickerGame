@@ -4,6 +4,8 @@
 #include <vector>
 #include "CursorUpgrades.h"
 #include "GrandmaUpgrades.h"
+#include "AppleTreeUpgrades.h"
+#include "LabUpgrades.h"
 
 #include "Cursor.h"
 #include "AppleTree.h"
@@ -33,6 +35,8 @@ private:
 
 	CursorUpgrades cursorUpgrades;
 	GrandmaUpgrades grandmaUpgrades;
+	AppleTreeUpgrades appleTreeUpgrades;
+	LabUpgrades labUpgrades;
 
 	std::vector<sf::Sprite> upgradeList;
 };

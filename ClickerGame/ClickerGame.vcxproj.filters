@@ -54,6 +54,9 @@
     <ClCompile Include="AppleTreeUpgrades.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LabUpgrades.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ClickObject.h">
@@ -87,6 +90,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AppleTreeUpgrades.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LabUpgrades.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

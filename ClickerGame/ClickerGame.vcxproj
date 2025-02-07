@@ -148,6 +148,7 @@
     <ClCompile Include="Grandma.cpp" />
     <ClCompile Include="GrandmaUpgrades.cpp" />
     <ClCompile Include="Lab.cpp" />
+    <ClCompile Include="LabUpgrades.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PlayerHud.cpp" />
     <ClCompile Include="PowerUp.cpp" />
@@ -162,6 +163,7 @@
     <ClInclude Include="Grandma.h" />
     <ClInclude Include="GrandmaUpgrades.h" />
     <ClInclude Include="Lab.h" />
+    <ClInclude Include="LabUpgrades.h" />
     <ClInclude Include="PlayerHud.h" />
     <ClInclude Include="PowerUp.h" />
     <ClInclude Include="Upgrades.h" />

@@ -32,8 +32,4 @@ protected:
 	bool bUpgradeCompletion[5];
 
 	sf::Sprite spriteToAddToVector;
-	sf::Sprite spriteToAddToVector2;
-	sf::Sprite spriteToAddToVector3;
-	sf::Sprite spriteToAddToVector4;
-	sf::Sprite spriteToAddToVector5;
 };

@@ -41,7 +41,6 @@ void PlayerHud::Draw(sf::RenderWindow& window)
 		sprite.setScale(0.5f, 0.5f);
 		sprite.setPosition(190.0f + index * 162, 580.0f);
 
-
 		window.draw(sprite);
 		index++;
 	}
@@ -53,5 +52,7 @@ void PlayerHud::Update(sf::RenderWindow& window)
 {
 	cursorUpgrades.Update(upgradeList);
 	grandmaUpgrades.Update(upgradeList);
+	appleTreeUpgrades.Update(upgradeList);
+	labUpgrades.Update(upgradeList);
 	Draw(window);
 }
